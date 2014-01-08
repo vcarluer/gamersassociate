@@ -19,7 +19,7 @@ body {
 }
 header {
 	position:relative;
-	width:768px;
+	width:1024px;
 	margin:auto;
 }
 header nav {
@@ -32,8 +32,8 @@ header nav ul {
 	float:right;
 }
 header nav ul li {
-	width:80px; 
-	float:left
+	width:110px; 
+	float:left;
 }
 header nav ul li a {
 	color:#444;
@@ -46,7 +46,7 @@ header nav ul li a:hover {
 #container {
 	position:relative;
 	top:110px;
-	width:768px;
+	width:1024px;
 	margin:auto;
 }
 section h1 {
