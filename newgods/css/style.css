@@ -22,6 +22,15 @@ header {
 	width:1024px;
 	margin:auto;
 }
+header h1 {
+	width:20%;
+	display:block;
+	float:left;
+	text-align:right;
+	font-family: 'Roboto Condensed';
+	text-transform:uppercase;
+	color:#550406;
+}
 header nav {
 	float:right;
 	margin-right:50px;
@@ -32,7 +41,7 @@ header nav ul {
 	float:right;
 }
 header nav ul li {
-	width:80px; 
+	width:160px; 
 	float:left
 }
 header nav ul li a {
