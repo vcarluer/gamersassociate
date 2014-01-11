@@ -93,7 +93,7 @@ img.boxed {
 	border-radius:10px;
 	box-shadow: 3px 3px 6px #555;
 }
-@media (max-width: 767px) {
+@media (max-width: 900px) {
 	section h1 {
 		float:none;
 		width:100%;
@@ -110,7 +110,7 @@ img.boxed {
 		width:100%;	
 	}	
 	#headerWrapper {
-		height:120px;	
+		height:160px;	
 	}
 	#container {
 		top:160px;
@@ -124,7 +124,7 @@ img.boxed {
 		max-width:320px;
 	}
 }
-@media (min-width: 481px) and (max-width:767px) {
+@media (min-width: 481px) and (max-width:900px) {
 	header,	#container {
 		width:480px;
 	}
