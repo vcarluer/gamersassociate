@@ -34,6 +34,7 @@ header nav ul {
 header nav ul li {
 	width:110px; 
 	float:left;
+	text-align: center;
 }
 header nav ul li a {
 	color:#444;
@@ -93,7 +94,7 @@ img.boxed {
 	border-radius:10px;
 	box-shadow: 3px 3px 6px #555;
 }
-@media (max-width: 900px) {
+@media (max-width: 950px) {
 	section h1 {
 		float:none;
 		width:100%;
@@ -124,7 +125,7 @@ img.boxed {
 		max-width:320px;
 	}
 }
-@media (min-width: 481px) and (max-width:900px) {
+@media (min-width: 481px) and (max-width:950px) {
 	header,	#container {
 		width:480px;
 	}
