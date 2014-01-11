@@ -8,7 +8,7 @@ body {
 #headerWrapper {
 	background-color:#fff;
 	position:fixed;
-	height:100px;
+	height:80px;
 	width:100%;
 	z-index:999;
 	margin:0;
@@ -22,20 +22,28 @@ header {
 	width:1024px;
 	margin:auto;
 }
+header h1 {
+	width:100%;
+	display:block;
+	float:left;
+	text-align:center;
+	font-family: 'Roboto Condensed';
+	text-transform:uppercase;
+	color:#550406;
+}
 header nav {
-	float:none;
-	position:absolute;;
-	margin-top:-20px; 
-	width:100%;	
-}	
+	float:center;
+	margin-right:50px;
+	margin-top:40px;
+}
 header nav ul {
 	list-style-type:none;
-	float:right;
+	float:center;
 }
 header nav ul li {
-	width:110px; 
+	width:160px; 
 	float:left;
-	text-align: center;
+	text-align:center;
 }
 header nav ul li a {
 	color:#444;
@@ -95,12 +103,7 @@ img.boxed {
 	border-radius:10px;
 	box-shadow: 3px 3px 6px #555;
 }
-@media (max-width: 950px) {
-	section h1 {
-		float:none;
-		width:100%;
-		text-align:left;
-	}
+@media (max-width: 767px) {
 	article {
 		width:100%;
 		margin-left:0;
@@ -126,7 +129,7 @@ img.boxed {
 		max-width:320px;
 	}
 }
-@media (min-width: 481px) and (max-width:950px) {
+@media (min-width: 481px) and (max-width:767px) {
 	header,	#container {
 		width:480px;
 	}
