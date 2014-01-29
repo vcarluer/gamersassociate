@@ -58,6 +58,9 @@ section header h2 {
 	text-align:left;
 	margin-left:25%;
 }
+aside a {
+	color:#fff;
+}
 article {
 	margin-left:20%;
 	margin-right:20%;
