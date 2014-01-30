@@ -1,17 +1,7 @@
-  // dom ready
-  $(function() {
-    createNavigation();
-  });
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  function createNavigation() {
-	var nav = $("#ganav");
-	if (nav) {
-		nav.html('<ul>\
-			<li><a href="videogames.htm">Video games</a></li>\
-			<li><a href="rpg.htm">Story games</a></li>\
-			<li><a href="blog.htm">Blog</a></li>\
-			<li><a href="articles.htm">Articles</a></li>\
-			<li><a href="about.htm">About</a></li>\
-			</ul>');
-	}
-  }
+  ga('create', 'UA-29591998-1', 'gamersassociate.com');
+  ga('send', 'pageview');
