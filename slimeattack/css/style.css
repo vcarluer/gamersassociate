@@ -131,10 +131,10 @@ img.floatRight{
 	}	
 	#getIt {
 	bottom:0;
-	left:5%;	
+	left:1%;	
 	}
 	#getIt img{
-		width:75%;
+		width:75px;
 	}
 }
 @media (min-width: 481px) and (max-width:767px) {
@@ -153,6 +153,13 @@ img.floatRight{
 		width:360px;
 		height:275px;
 	}		
+	#getIt {
+	bottom:0;
+	left:1%;	
+	}
+	#getIt img{
+		width:100px;
+	}
 }
 @media (min-width: 768px) {
 }
